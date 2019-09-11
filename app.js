@@ -8,7 +8,10 @@ app.listen(port,
  });
 
 
- //app.get('/', function (req, res) {
+ app.get('/api',  (req, res) =>{
   //res.sendFile('./hola.html',{ root: '.' });
- // res.sendFile('<h1>Hola</h1>')
-//});
+ res.send('<h1>Hola</h1>')
+});
+app.get('/',(req,res,)=>{
+      res.sendFile('./index.html',{ root: '.' });
+})
