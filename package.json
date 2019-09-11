@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-uaem",
+  "version": "1.0.0",
+  "description": "rest api introduccion",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielislas3/Taller-UAEM-REST-API.git"
+  },
+  "author": "Daniel_Orio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielislas3/Taller-UAEM-REST-API/issues"
+  },
+  "homepage": "https://github.com/danielislas3/Taller-UAEM-REST-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.7.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
